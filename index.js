@@ -20,6 +20,6 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(){
   var i = 0;
   do{
-    
+    i = i + 1;
   }
 }
