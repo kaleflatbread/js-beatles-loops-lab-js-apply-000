@@ -23,10 +23,10 @@ function iLoveTheBeatles(num){
   if (num>15){
       return finalAnswer.push("I love the Beatles!")
     }else{
-  do{
-    finalAnswer.push("I love the Beatles!")
-    i++;
-  } while (i<num)
-  return finalAnswer;
-}
+      do{
+        finalAnswer.push("I love the Beatles!")
+         i++;
+      } while (i<num)
+    return finalAnswer;
+  }
 }
