@@ -20,12 +20,13 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(num){
   var i = 0;
   var finalAnswer = [];
+  if (num>15){
+      return finalAnswer.push("I love the Beatles!")
+    }else{
   do{
-    if (num<15){
-      
-    }
     finalAnswer.push("I love the Beatles!")
     i++;
   } while (i<num)
   return finalAnswer;
+}
 }
