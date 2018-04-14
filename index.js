@@ -24,5 +24,6 @@ function iLoveTheBeatles(num){
     finalAnswer.push("I love the Beatles!")
     i++;
   } while (i<num)
+  if finalAnswer.length 
   return finalAnswer;
 }
