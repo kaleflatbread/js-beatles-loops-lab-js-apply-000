@@ -21,9 +21,11 @@ function iLoveTheBeatles(num){
   var i = 0;
   var finalAnswer = [];
   do{
+    if (num<15){
+      
+    }
     finalAnswer.push("I love the Beatles!")
     i++;
   } while (i<num)
-  if (finalAnswer.length > 14)
   return finalAnswer;
 }
